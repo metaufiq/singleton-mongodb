@@ -1,6 +1,6 @@
 import { Db } from 'mongodb';
 interface databaseData {
-    url: string;
+    url?: string;
     name: string;
 }
 interface MongoDBConnectionTypes {
