@@ -4,7 +4,7 @@ const MongoClient = mongodb.MongoClient;
 const DATABASE_DEFAULT_URL = 'mongodb://localhost:27017/';
 
 interface databaseData{
-	url: string,
+	url?: string,
 	name: string
 };
 
